@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Age Calculator App</title>
+</head>
+<body>
+  <div class="container">
+    <!--1-->
+    <div class="inputs">
+      <div class="input-group">
+        <label for="day">DAY</label>
+        <input type="number" id="day" placeholder="DD">
+        <small>Must be a valid day</small>
+      </div>
+      <div class="input-group">
+        <label for="month">MONTH</label>
+        <input type="number" id="month" placeholder="MM">
+        <small>Must be a valid month</small>
+      </div>
+      <div class="input-group">
+        <label for="year">YEAR</label>
+        <input type="number" id="year" placeholder="YYYY">
+        <small>Must be a valid Year</small>
+      </div>
+    </div>
+    <!--2-->
+    <div class="divider">
+      <hr>
+      <div class="button-wrapper">
+        <button id="calculate" class="js-calculate" onclick="calculateAge()">
+          <img src="arrow-icon.png" alt="Calculate">
+        </button>
+      </div>
+    </div>
+    
+    <!--3-->
+    <div class="results">
+      <p><span class="js-year">--</span> years</p>
+      <p><span class="js-month">--</span> months</p>
+      <p><span class="js-day">--</span> days</p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
