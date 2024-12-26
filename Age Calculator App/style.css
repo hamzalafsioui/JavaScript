@@ -111,3 +111,12 @@ button img {
   letter-spacing: 10px;
 
 }
+/*
+Responsive design
+*/
+@media(max-width: 600px) {
+  .container{
+    width:90%;
+    padding: 20px;
+  }
+}
