@@ -45,7 +45,7 @@ body{
 .rating:hover, 
 .rating.active{
   border-radius: 4px;
-  box-shadow: 0 0 10px rgb(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .rating img{
@@ -64,7 +64,7 @@ color: #111;
 }
 
 .btn{
-  background-color: #302d2b;
+  background-color: #110e0c;
   color: white;
   border: 0;
   padding: 12px 30px;
