@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "id": "1",
+      "imgPath": "./images/animal-9890745_1280.jpg",
+      "title": "Demo 1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "id": "2",
+      "imgPath": "./images/bird-9900094_1280.jpg",
+      "title": "Demo 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "id": "3",
+      "imgPath": "./images/bird-9920902_1280.jpg",
+      "title": "Demo 3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "id": "4",
+      "imgPath": "./images/fire-9877220_1280.jpg",
+      "title": "Demo 4",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+      "id": "5",
+      "imgPath": "./images/violin-7775182_1280.jpg",
+      "title": "Demo 5",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    }
+  ]
+}
