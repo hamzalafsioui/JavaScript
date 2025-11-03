@@ -1,0 +1,38 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f4f4f4;
+    }
+    header, footer {
+      background: #222;
+      color: white;
+      padding: 10px;
+    }
+    main {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    section {
+      border: 1px solid #ccc;
+      margin: 15px 0;
+      padding: 15px;
+      border-radius: 6px;
+    }
+    .highlight {
+      background: yellow;
+    }
+    .hidden {
+      display: none;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid #555;
+      padding: 8px;
+    }
+    input, select, textarea, button {
+      margin: 5px 0;
+    }

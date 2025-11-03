@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>DOM Practice Playground</title>
+  <style>
+   
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="main-title">DOM Practice Page</h1>
+    <nav>
+      <ul id="nav-list">
+        <li><a href="#intro" class="nav-link">Intro</a></li>
+        <li><a href="#form-section" class="nav-link">Form</a></li>
+        <li><a href="#table-section" class="nav-link">Table</a></li>
+        <li><a href="#list-section" class="nav-link">Lists</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Section 1: Text and Attributes -->
+    <section id="intro">
+      <h2>Introduction</h2>
+      <p class="description">This is a paragraph you can manipulate using JavaScript. Try changing its text, color, or adding new elements!</p>
+      <button id="change-text-btn">Change Text</button>
+    </section>
+
+    <!-- Section 2: Forms -->
+    <section id="form-section">
+      <h2>Form Manipulation</h2>
+      <form id="user-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+          <option value="">Select...</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <br>
+
+        <label><input type="checkbox" id="subscribe"> Subscribe to newsletter</label><br>
+
+        <textarea id="comments" placeholder="Leave a comment"></textarea><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+
+    <!-- Section 3: Table -->
+    <section id="table-section">
+      <h2>Table Manipulation</h2>
+      <table id="user-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Alice</td><td>25</td></tr>
+          <tr><td>2</td><td>Bob</td><td>30</td></tr>
+          <tr><td>3</td><td>Charlie</td><td>28</td></tr>
+        </tbody>
+      </table>
+      <button id="add-row-btn">Add Row</button>
+      <button id="delete-row-btn">Delete Last Row</button>
+    </section>
+
+    <!-- Section 4: Lists -->
+    <section id="list-section">
+      <h2>Lists and DOM Navigation</h2>
+      <ul id="todo-list">
+        <li class="task done">Learn HTML</li>
+        <li class="task">Practice CSS</li>
+        <li class="task">Master JavaScript</li>
+      </ul>
+      <button id="add-item-btn">Add List Item</button>
+      <button id="toggle-done-btn">Toggle Done</button>
+    </section>
+
+    <!-- Section 5: Events and Dynamic Changes -->
+    <section id="event-section">
+      <h2>Event Handling</h2>
+      <button id="color-btn">Change Background Color</button>
+      <button id="toggle-visibility-btn">Toggle Image Visibility</button>
+      <div id="hover-box" style="width:100px; height:100px; background:#ddd; margin-top:10px;">
+        Hover over me!
+      </div>
+      <img id="sample-image" src="https://cdn.pixabay.com/photo/2023/08/07/13/44/tree-8175062_1280.jpg" style="width: 100px; height: auto; margin-top: 1rem;" alt="Placeholder image">
+
+    </section>
+
+    <!-- Section 6: Media -->
+    <section id="media-section">
+      <h2>Media Elements</h2>
+      <audio id="audio-player" controls>
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+      </audio>
+      <video id="video-player" width="320" controls>
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        Your browser does not support video.
+      </video>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DOM Practice Page</p>
+  </footer>
+
+  <script src="script.js">
+    
+  </script>
+</body>
+</html>
